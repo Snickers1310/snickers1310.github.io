@@ -1,0 +1,193 @@
+﻿
+
+* {
+    box-sizing: border-box;
+    font-family: Cambria;
+    color: #777
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+    position: relative;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #777;
+    border-top: 1px solid #777;
+}
+
+    .main-nav li {
+        padding: 0 5%;
+    }
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgb(211 168 168);
+    background-image: url("headerimage.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 1.875em;
+}
+
+p {
+    font-family: Arial;
+    color: black;
+}
+
+.main-title {
+    padding-top: 0;
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Cambria;
+    font-weight: normal;
+    color: white;
+}
+
+
+.main-footer {
+    color: white;
+    padding: .25em 0;
+    background-color: rgb(17 96 182);
+}
+
+.footer-title {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Cambria;
+    font-weight: normal;
+    color: white;
+    padding-left: 0.5em;
+}
+
+.youtubelogo {
+    width: 9.375em;
+    height: 9.375em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+    .main-footer-container ul {
+        flex-grow: 1;
+        text-align: end;
+    }
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.signup-box {
+    width: 20em;
+    height: 38.75em;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.login-box {
+    width: 22.5em;
+    height: 17.5em;
+    margin: auto;
+    border-radius: 0.1875em;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 0.9375em;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 18.75em;
+    margin-left: 0.5em;
+}
+
+    form label {
+        display: flex;
+        margin-top: 1.25em;
+        font-size: 1.125em;
+    }
+
+    form input {
+        width: 100%;
+        padding: 0.4375em;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 0.375em;
+        outline: none;
+    }
+
+input[type="submit"] {
+    width: 16.75em;
+    height: 2.1875em;
+    margin-top: 1.25em;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 1.125em;
+}
+
+p {
+    text-align: center;
+    padding-top: 1.25em;
+    font-size: 0.9375em;
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 0.9375em;
+    margin-top: -0.625em;
+}
+
+    .para-2 a {
+        color: #49c1a2;
+    }
+
+    @media only screen and (max-width: 440px) {
+
+.main-header {
+            background-color: rgb(211 168 168);
+            background-image: url("headerimage.jpg");
+            background-blend-mode: multiply;
+            background-size: cover;
+            padding-bottom: 1.875em;
+            width:calc(100vw + 18.75em);
+        }
+    }

@@ -1,0 +1,273 @@
+﻿
+
+* {
+    box-sizing: border-box;
+    font-family: Cambria;
+    font-size: 100%;
+    color: #777
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+    position: relative;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #777;
+    border-top: 1px solid #777;
+}
+
+    .main-nav li {
+        padding: 0 5%;
+    }
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgb(211 168 168);
+    background-image: url("Images/headerimage.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 1.875em;
+}
+
+p {
+    font-family: Arial;
+    color: black;
+}
+
+.main-title {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Cambria;
+    font-weight: normal;
+    color: white;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 56.25em;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Cambria;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.nfticon {
+    float: left;
+    height: 12.5em;
+    width: 12.5em;
+    margin: 0.9375em;
+    border-radius: 50%;
+}
+
+.main-footer {
+    color: white;
+    padding: .25em 0;
+    background-color: rgb(17 96 182);
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 4em;
+    font-family: Cambria;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    padding-left: 0.5em;
+}
+
+.youtubelogo {
+    width: 9.375em;
+    height: 9.375em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+    .main-footer-container ul {
+        flex-grow: 1;
+        text-align: end;
+    }
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.nft-list {
+    padding-right: 15.25em;
+    display: table;
+    margin: 0 auto;
+    padding-left: 1em;
+    color: black;
+    font-size: 150%;
+    font-family: Arial;
+    padding-bottom: 1.5em;
+}
+
+    .nft-list ol {
+        padding: 0;
+    }
+
+    .nft-list li {
+        list-style-type: lower-alpha;
+        color: black;
+        padding-bottom: 0.3125em;
+        padding-left: 0.5em;
+        text-align: left;
+    }
+
+        .nft-list li a {
+            text-decoration: none;
+            color: rgb(31 35 255 / 0.81);
+        }
+
+
+            .nft-list li a:link {
+                color: red;
+            }
+
+            .nft-list li a:hover {
+                background-color: rgb(99 179 255);
+                text-decoration: underline;
+                color: blue;
+            }
+
+            .nft-list li a:active {
+                color: red;
+            }
+
+.currentLink {
+    color: #640200;
+    background-color: #000000;
+}
+
+@media only screen and (min-width: 500px) {
+    nav {
+        min-width: 500px;
+    }
+}
+
+.content-nft {
+    max-width: 56.25em;
+}
+
+    .content-nft ul li {
+        color: black;
+        font-size: 1.25em;
+        padding: 1em 0 1em 0;
+    }
+
+    .content-nft ul {
+        padding-left: 1em;
+    }
+
+table {
+    border: 1px solid black;
+    margin: 0;
+}
+
+th:first-child, td:first-child {
+    border: 0.5px solid black;
+    padding: .3em .9em;
+    text-align: center;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    border: 0.5px solid black;
+    padding: .3em .9em;
+    text-align: center;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    border: 0.5px solid black;
+    padding: .3em .9em;
+    text-align: center;
+}
+
+.table-price {
+    text-align: left;
+}
+
+thead, tfoot {
+    background-color: rgb(17 96 182);
+}
+
+.chart-title {
+    color: white;
+}
+
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    border: 1px solid black;
+    width: 375px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    padding-bottom: 0.25em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.table-box {
+    max-width: 56.25em;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    margin-bottom: 2em;
+}
